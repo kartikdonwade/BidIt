@@ -52,5 +52,5 @@ https://youtu.be/ovi0WQVhajc
 
 ## Our Team Avinya 
 
-- [Kartik](https://www.github.com/kartikdonwade)
+- [Vishwajeet](https://github.com/vishwajeetk5)
 - [Sambhav](https://github.com/SambhavPatil)
