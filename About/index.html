@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+<script src="https://kit.fontawesome.com/aee62cfba8.js" crossorigin="anonymous"></script></head>
+<body>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>About us</title>
+        <link rel="stylesheet" href="{% static 'about.css' %}" />
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+        <link rel="icon" href="{% static 'PICO-LOGO-SHORT.png' %}" type="image/gif">
+      <script src="https://kit.fontawesome.com/aee62cfba8.js" crossorigin="anonymous"></script></head>
+
+      <body>
+        <!-- -----------------------------------------------company---------------------------------------------------------------- -->
+        
+        <div class="container1" >
+          <div class="company"  >
+            
+            <div class="img" >
+              <img 
+              style="width: 400px; position: relative;  left:23%; bottom:-20% ;" 
+              src="./Designer-removebg-preview.png" alt="" />
+            </div>
+            <div class="company-info">
+              <span>About <span class="our">Us</span></span>
+              <br><br>
+              <p>
+                <section>
+                  <h2>Our Story</h2>
+                  <p>Welcome to <strong>BidIt</strong>, your premier online auction platform! Whether you're a seasoned collector, a savvy bargain hunter, or a business looking to optimize your procurement process, BidIt is the place to be.</p>
+                  <p>At BidIt, we believe that auctions are more than mere transactions. They're exhilarating experiences—a blend of suspense, competition, and the thrill of securing a deal. Our dynamic online marketplace brings this excitement to your fingertips, allowing you to bid from the comfort of your home, anytime, anywhere.</p>
+              </section>
+              <section>
+                  <h2>Why Choose BidIt?</h2>
+                  <ol>
+                      <li><strong>Global Reach:</strong> BidIt opens up new geographical markets for your business. Anyone, from anywhere, can easily land on our website and start bidding. There's no language barrier either; our platform supports multiple languages.</li>
+                      <li><strong>Tailored Solutions:</strong> As businesses strive to differentiate themselves, the need for custom bidding systems becomes more pronounced. BidIt offers sophisticated solutions that cater to your unique requirements.</li>
+                      <li><strong>Unparalleled Convenience:</strong> Say goodbye to rigid schedules and physical auction houses. BidIt lets you participate in auctions at your convenience, 24/7.</li>
+                      <li><strong>Wide Variety:</strong> From rare collectibles to construction equipment, BidIt hosts a diverse range of auctions. Whatever you're seeking, chances are you'll find it here.</li>
+                  </ol>
+              </section>
+              <section>
+                  <h2>Our Commitment</h2>
+                  <p>BidIt is committed to transparency, fairness, and user satisfaction. Our team works tirelessly to ensure seamless bidding experiences, secure transactions, and prompt customer support.</p>
+                  <p>Join us at BidIt, where every bid is a step toward something extraordinary!</p>
+              </section>
+              </p>
+            </div>
+        </div>
+
+        </div>
+        <!-- ---------------------------------------------------------------------------------------------------------------------- -->
+        <!-- ----------------------------------------------------team-------------------------------------------------------------- -->
+        <br>
+        <br>
+        <div class="team"><span>OUR TEAM</span></div>
+        <div class="container">
+          <div class="card">
+            <div class="card-image loading"><img src="./WhatsApp Image 2024-02-19 at 10.40.38_9aa433fb.jpg" alt="mrunal" /></div>
+            <div class="card-info">
+              <h3 class="card-title loading"><span>Sambhav <span class="yellow-surname">Patil</span></span></h3>
+              <p class="card-description loading">
+                <span class="personal-info">
+                  <span class="info">Graphic Designing Head</span> <br>
+                  Pursuing B-tech Comp      
+                  (Pccoe Pune) <br>
+                  Email: <a href="mailto:'sambhavpatil1008@gmail.com'">sambhavpatil1008@gmail.com</a>
+                </span>
+              </p>
+              <div class="card-mediaIcons">
+                <a href="#" class="loading" target="on_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="{% url 'viewprofile' 9 %}" class="loading" target="on_blank"><i></a></i>
+                <a href="https://www.instagram.com/patil.sambhav.18/" class="loading" target="on_blank"><i
+                    class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="card">
+            <div class="card-image loading"><img src="./WhatsApp Image 2024-02-19 at 10.45.59_fad12199.jpg" alt="makar" /></div>
+            <div class="card-info">
+              <h3 class="card-title loading"><span>Kartik <span class="yellow-surname">Donwade</span></span></h3>
+              <p class="card-description loading">
+                <span class="personal-info">
+                  <span class="info">Marketing and Data Head</span> <br>
+                  Pursuing B-tech Comp (Pccoe Pune)<br>
+                  Email: <a href="mailto:'kartikdonwade45@gmail.com'">kartikdonwade45@gmail.com</a>
+                </span>
+              </p>
+              <div class="card-mediaIcons">
+                <a href="#" class="loading" target="on_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="{% url 'viewprofile' 6 %}" class="loading" target="on_blank"><i></a></i>
+                <a href="https://www.instagram.com/kartik_donwade11/" class="loading" target="on_blank"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="card">
+            <div class="card-image loading"><img src="./WhatsApp Image 2024-02-18 at 00.13.01.jpeg" alt="bala" /></div>
+            <div class="card-info">
+              <h3 class="card-title loading"><span>Vishwajeet <span class="yellow-surname">Koshti</span></span></h3>
+              <p class="card-description loading">
+                <span class="personal-info">
+                  <span class="info">Backend  Head</span> <br>
+                  Pursuing B-tech Comp (Pccoe Pune) <br>
+                  Email: <a href="mailto:'vishwajeet.koshti21@pccoepune.org'">vishwajeet112@gmail.com</a>
+                </span>
+              </p>
+              <div class="card-mediaIcons">
+                <a href="#" class="loading" target="on_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="{% url 'viewprofile' 6 %}" class="loading" target="on_blank"><i></a></i>
+                <a href="https://www.instagram.com/vishwajeet.koshti_5/" class="loading" target="on_blank"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <!-- ----------------------------------------footer------------------------------------------ -->
+        <footer>
+          <div class="content">
+            <div class="top">
+              <div class="logo-details">
+                <span class="logo_name">BidIt</span>
+              </div>
+              
+              <div class="media-icons">
+                <a target="on_blank" href="#"><i class="fab fa-facebook"></i></a>
+                <a target="on_blank" href="https://www.instagram.com/pccoepune/"><i class="fab fa-instagram"></i></a>
+              </div>
+
+            </div>
+            <div class="link-boxes">
+              <ul class="box">
+                <li class="link_name">Links</li>
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="{% url 'about' %}">About Us</a></li>
+                <li><a href="{% url 'upload' %}">Admin</a></li>
+      
+              </ul>
+              <ul class="box">
+                <li class="link_name">Recommended</li>
+                <li><a href="{% url 'category' 6 %}">India</a></li>
+                <li><a href="{% url 'category' 5 %}">Plans</a></li>
+                <li><a href="{% url 'category' 11 %}">Categories</a></li>
+                <li><a href="{% url 'category' 2 %"}>Bids</a></li>
+      
+              </ul>
+              <ul class="box">
+                <li class="link_name">Legal Info</li>
+                <li><a href="{% url 'licence' %}">Licence</a></li>
+                <li><a href="{% url 'terms' %}">Terms and Conditions</a></li>
+                <li><a href="{% url 'privacy' %}">Privacy Policies</a></li>
+      
+              </ul>
+              <ul class="box">
+                <li class="link_name">Contact</li>
+                <li><a target="on_blank" href="tel:+919356">+91 9356821263</a></li>
+                <li><a target="on_blank" href="mailto:'bidit@gmail.com'">bidit@gmail.com</a></li>
+              </ul>
+            </div>
+          </div>
+      
+          <div class="bottom-details">
+            <div class="bottom_text">
+              <span class="copyright_text">Copyright © 2021 <a href="#">BidIt.</a></span>
+            </div>
+          </div>
+        </footer>
+        <!-- ---------------------------------------------------------------------------------------- -->
+        <!-- -------------------------------------------------------------------------------------------- -->
+      
+      </html>
+</body>
+</html>
